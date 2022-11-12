@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.Home {
+    background: url('home-background.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar {
+    display: inline-block;
+    width: 100%;
+    background: gray;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.navbar h2 {
+    position: relative;
+    float: left;
+    color: whitesmoke;
+    color: rgba(214, 249, 255, 0.75);
+    padding: 25px;
+}
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    float: right;
+    text-decoration: none;
+    color: whitesmoke;
+    color: rgba(214, 249, 255, 0.75);
+    padding: 25px;
+    border-radius: 10%;
+}
+.navbar a:hover {
+    background: white;
+    color: black;
+}
+.Big-paragraph {
+    height: 300px;
+    position: relative;
+}
+.Big-paragraph h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    color: rgb(0, 0, 0, 0.5);
+}
+.Small-paragraph {
+    height: 10px;
+    position: relative;
+    text-align: center;
+}
+.Small-paragraph h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: rgb(0, 0, 0, 0.5);
+}
+.buttonOnHome {
+    height: 50px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button {
+    position: relative;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10%;
+}
+button:hover {
+    background: white;
+    color: black;
+}
+.footer {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    background: gray;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    height: 150px;
+    display: flex;
+    padding: 50px 40%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
