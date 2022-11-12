@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 .Home {
     background: url('home-background.jpg');
@@ -51,7 +52,7 @@
     color: rgb(0, 0, 0, 0.5);
 }
 .Small-paragraph {
-    height: 10px;
+    height: 50px;
     position: relative;
     text-align: center;
 }
@@ -62,19 +63,6 @@
     transform: translate(-50%, -50%);
     font-size: 24px;
     color: rgb(0, 0, 0, 0.5);
-}
-.buttonOnHome {
-    height: 50px;
-    background: transparent;
-    border: none;
-    font-size: 18px;
-    color: rgb(0, 0, 0, 0.5);
-    padding: 15px;
-    border-radius: 10%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 button {
     position: relative;
@@ -90,17 +78,16 @@ button:hover {
     color: black;
 }
 .footer {
-    position: absolute;
-    display: inline-block;
+    position: relative;
     width: 100%;
     background: gray;
     background: rgba(0, 0, 0, 0.5);
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position:0% 0%;
+    right: 0;
+    left: 0;
     bottom: 0;
-    height: 150px;
-    display: flex;
-    padding: 50px 40%;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 80px;
 }

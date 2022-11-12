@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 .Contacts {
     background: url('contacs-background.jpg');
@@ -52,17 +53,16 @@ button:hover {
     color: black;
 }
 .footer {
-    position: absolute;
-    display: inline-block;
+    position: relative;
     width: 100%;
     background: gray;
     background: rgba(0, 0, 0, 0.5);
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position:0% 0%;
+    right: 0;
+    left: 0;
     bottom: 0;
     height: 80px;
-    display: flex;
-    padding: 15px 42%;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
