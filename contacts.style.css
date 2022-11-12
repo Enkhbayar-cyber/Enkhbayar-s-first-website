@@ -8,8 +8,8 @@ html {
     overflow: auto;
 }
 
-.Resume {
-    background: url('resume-background.jpg');
+.Contacts {
+    background: url('contacs-background.jpg');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -60,16 +60,11 @@ button:hover {
     color: black;
 }
 .footer {
-    position: relative;
+    position: absolute;
+    display: inline-block;
     width: 100%;
     background: gray;
     background: rgba(0, 0, 0, 0.5);
-    background-image: none;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position:0% 0%;
-    right: 0;
-    left: 0;
     bottom: 0;
     height: 80px;
 }

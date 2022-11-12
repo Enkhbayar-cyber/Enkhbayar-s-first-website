@@ -8,8 +8,8 @@ html {
     overflow: auto;
 }
 
-.Resume {
-    background: url('resume-background.jpg');
+.Home {
+    background: url('home-background.jpg');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -55,7 +55,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 32px;
+    font-size: 22px;
     color: rgb(0, 0, 0, 0.5);
 }
 .Small-paragraph {
@@ -68,7 +68,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 24px;
+    font-size: 14px;
     color: rgb(0, 0, 0, 0.5);
 }
 button {
@@ -85,16 +85,11 @@ button:hover {
     color: black;
 }
 .footer {
-    position: relative;
+    position: absolute;
+    display: inline-block;
     width: 100%;
     background: gray;
     background: rgba(0, 0, 0, 0.5);
-    background-image: none;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position:0% 0%;
-    right: 0;
-    left: 0;
     bottom: 0;
     height: 80px;
 }

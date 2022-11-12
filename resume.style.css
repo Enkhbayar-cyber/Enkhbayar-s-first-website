@@ -46,6 +46,18 @@ html {
     background: white;
     color: black;
 }
+.Name_on_resume {
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+    color: rgb(0, 0, 0, 0.5);
+}
+.CV {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0, 0.5);
+}
 button {
     position: relative;
     background: transparent;
