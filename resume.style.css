@@ -7,29 +7,23 @@ html {
     box-sizing: border-box;
     overflow: auto;
 }
-
 .Resume {
-    background: url('resume-background.jpg');
+    background: url('home-background.jpg');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
     width: 100vw;
     height: 100vh;
-    min-height: 100%;
-    box-sizing: inherit;
 }
 .navbar {
     display: inline-block;
     width: 100%;
-    background: gray;
-    text-align: center;
     background: rgba(0, 0, 0, 0.5);
 }
 .navbar h2 {
     position: relative;
     float: left;
-    color: whitesmoke;
-    color: rgba(214, 249, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
     padding: 25px;
 }
 .navbar a {
@@ -37,51 +31,86 @@ html {
     font-size: 18px;
     float: right;
     text-decoration: none;
-    color: whitesmoke;
-    color: rgba(214, 249, 255, 0.75);
-    padding: 25px;
-    border-radius: 10%;
-}
-.navbar a:hover {
-    background: white;
-    color: black;
-}
-.Name_on_resume {
-    position: relative;
-    text-align: center;
-    font-size: 32px;
-    color: rgb(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.75);
+    padding: 15px;
+    border-radius: 15px;
 }
 .CV {
     position: relative;
+    padding: 15px;
     text-align: center;
     font-size: 50px;
-    color: rgb(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0, 0.75);
 }
-button {
+.container {
+    width: 100vw;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr, 1fr;
+
+    gap: 15px;
+
+    padding: 55px;
+    box-sizing: border-box;
+}
+.Photograph {
     position: relative;
-    background: transparent;
-    border: none;
-    font-size: 18px;
-    color: rgb(0, 0, 0, 0.5);
-    padding: 15px;
-    border-radius: 10%;
+    width: 100px;
+    height: 50px;
+    padding: 50px 10px 40px 10px;
+    color: rgba(0, 0, 0, 0.75);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(85, 114, 151);
 }
-button:hover {
-    background: white;
-    color: black;
+.Name_on_resume {
+    position: relative;
+    font-size: 16px;
+    color: rgb(0, 0, 0, 0.75);
+}
+.Photo_and_Name {
+    padding: 50px, 50px,50px, 50px;
+}
+.Biography {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.Software_skills {
+    padding: 15px;
+}
+.Hardware_skills {
+    padding: 15px;
+}
+.Expreience_at_work {
+    padding: 15px;
+}
+.Education {
+    padding: 15px;
+}
+.Resume_ending {
+    padding: 15px;
 }
 .footer {
     position: relative;
     width: 100%;
-    background: gray;
     background: rgba(0, 0, 0, 0.5);
-    background-image: none;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position:0% 0%;
-    right: 0;
-    left: 0;
     bottom: 0;
     height: 80px;
+}
+.footer a {
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+}
+a:hover {
+    background: white;
+    color: black;
 }

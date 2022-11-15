@@ -7,7 +7,6 @@ html {
     box-sizing: border-box;
     overflow: auto;
 }
-
 .Home {
     background: url('home-background.jpg');
     background-repeat: no-repeat;
@@ -15,21 +14,16 @@ html {
     background-position: center;
     width: 100vw;
     height: 100vh;
-    min-height: 100%;
-    box-sizing: inherit;
 }
 .navbar {
     display: inline-block;
     width: 100%;
-    background: gray;
-    text-align: center;
     background: rgba(0, 0, 0, 0.5);
 }
 .navbar h2 {
     position: relative;
     float: left;
-    color: whitesmoke;
-    color: rgba(214, 249, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
     padding: 25px;
 }
 .navbar a {
@@ -37,59 +31,72 @@ html {
     font-size: 18px;
     float: right;
     text-decoration: none;
-    color: whitesmoke;
-    color: rgba(214, 249, 255, 0.75);
-    padding: 25px;
-    border-radius: 10%;
+    color: rgba(255, 255, 255, 0.75);
+    padding: 15px;
+    border-radius: 15px;
 }
-.navbar a:hover {
-    background: white;
-    color: black;
-}
-.Big-paragraph {
-    height: 300px;
+.Head_title {
     position: relative;
+    height: 200px;
 }
-.Big-paragraph h1 {
+.Head_title h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    color: rgb(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.75);
 }
-.Small-paragraph {
+.CV {
     height: 50px;
     position: relative;
-    text-align: center;
 }
-.Small-paragraph h3 {
+.CV a {
     position: absolute;
     top: 50%;
     left: 50%;
+    text-decoration: none;
     transform: translate(-50%, -50%);
     font-size: 14px;
-    color: rgb(0, 0, 0, 0.5);
-}
-button {
-    position: relative;
-    background: transparent;
-    border: none;
-    font-size: 18px;
-    color: rgb(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0, 0.75);
     padding: 15px;
-    border-radius: 10%;
+    border-radius: 15px;
 }
-button:hover {
-    background: white;
-    color: black;
+.Blog {
+    height: 50px;
+    position: relative;
+}
+.Blog a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: rgb(0, 0, 0, 0.75);
+    padding: 15px;
+    border-radius: 15px;
 }
 .footer {
     position: absolute;
     display: inline-block;
     width: 100%;
-    background: gray;
     background: rgba(0, 0, 0, 0.5);
     bottom: 0;
     height: 80px;
+}
+.footer a {
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+}
+a:hover {
+    background: white;
+    color: black;
 }

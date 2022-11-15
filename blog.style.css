@@ -7,7 +7,7 @@ html {
     box-sizing: border-box;
     overflow: auto;
 }
-.Contacts {
+.Blog {
     background: url('home-background.jpg');
     background-repeat: no-repeat;
     background-size: auto;
@@ -35,9 +35,9 @@ html {
     padding: 15px;
     border-radius: 15px;
 }
+
 .footer {
-    position: absolute;
-    display: inline-block;
+    position: relative;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     bottom: 0;
