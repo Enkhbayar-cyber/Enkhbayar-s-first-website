@@ -55,14 +55,14 @@ a:visited {
     text-decoration: none;
 }
 .footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     height: 80px;
 }
 .footer a {
-    position: absolute;
+    position: relative;
     top: 30px;
     font-size: 18px;
     text-decoration: none;
