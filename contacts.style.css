@@ -7,13 +7,6 @@ html {
     box-sizing: border-box;
     overflow: auto;
 }
-.page-container {
-    position: relative;
-    min-height: 100vh
-}
-.content-wrap {
-    padding-bottom: 80px;
-}
 .Contacts {
     background-color: #a28089;
     background-repeat: no-repeat;
@@ -61,15 +54,14 @@ a:link {
 a:visited {
     text-decoration: none;
 }
-
-footer {
-    position: absolute;
+.footer {
+    position: relative;
     bottom: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     height: 80px;
 }
-footer a {
+.footer a {
     position: relative;
     top: 30px;
     font-size: 18px;
@@ -85,13 +77,6 @@ a:hover {
     color: black;
 }
 @media only screen and (max-width: 600px) {
-    .page-container {
-        position: relative;
-        min-height: 100vh
-    }
-    .content-wrap {
-        padding-bottom: 80px;
-    }
     .navbar {
         display: inline-block;
         width: 100%;
@@ -113,16 +98,15 @@ a:hover {
         padding-bottom: 25px;
         border-radius: 15px;
     }
-    footer {
+    .footer {
         position: absolute;
         bottom: 0;
         width: 100%;
         background: rgba(0, 0, 0, 0.5);
         height: 80px;
     }
-    footer a {
+    .footer a {
         position: relative;
-        top: 30px;
         font-size: 18px;
         text-decoration: none;
         background: transparent;
