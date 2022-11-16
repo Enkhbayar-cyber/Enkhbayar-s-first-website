@@ -8,7 +8,7 @@ html {
     overflow: auto;
 }
 .Blog {
-    background: url('home-background.jpg');
+    background-color: #9df9ef;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -35,7 +35,19 @@ html {
     padding: 25px;
     border-radius: 15px;
 }
-
+h1 {
+    padding: 25px;
+}
+section {
+    padding: 10px;
+}
+.section_with_border {
+    border: 1px solid black;
+    padding: 25px;
+}
+li {
+    padding: 10px;
+}
 .footer {
     position: relative;
     width: 100%;
@@ -51,10 +63,56 @@ html {
     background: transparent;
     border: none;
     color: rgba(255, 255, 255, 0.5);
-    padding: 10px;
+    padding: 25px;
     border-radius: 15px;
 }
 a:hover {
     background: white;
     color: black;
+}
+@media only screen and (max-width: 600px) {
+    .navbar {
+        display: inline-block;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .navbar h2 {
+        position: relative;
+        float: left;
+        color: rgba(255, 255, 255, 0.75);
+        padding: 25px;
+    }
+    .navbar a {
+        position: relative;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.75);
+        padding: 5px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 15px;
+    }
+    .footer {
+        position: relative;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        bottom: 0;
+        height: 80px;
+    }
+    .footer a {
+        position: relative;
+        font-size: 18px;
+        text-decoration: none;
+        background: transparent;
+        border: none;
+        color: rgba(255, 255, 255, 0.5);
+        padding: 1px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 15px;
+    }
+    a:hover {
+        background: white;
+        color: black;
+    }
 }

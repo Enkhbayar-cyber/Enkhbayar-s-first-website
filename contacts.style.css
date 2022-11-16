@@ -7,8 +7,15 @@ html {
     box-sizing: border-box;
     overflow: auto;
 }
+.page-container {
+    position: relative;
+    min-height: 100vh
+}
+.content-wrap {
+    padding-bottom: 80px;
+}
 .Contacts {
-    background: url('home-background.jpg');
+    background-color: #a28089;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -35,15 +42,34 @@ html {
     padding: 25px;
     border-radius: 15px;
 }
-.footer {
+h1 {
+    padding: 25px;
+}
+hr {
+    border-top: 2px solid white;
+}
+li {
+    padding: 15px;
+}
+a {
+    padding: 15px;
+    border-radius: 15px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+footer {
     position: absolute;
-    display: inline-block;
+    bottom: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    bottom: 0;
     height: 80px;
 }
-.footer a {
+footer a {
     position: relative;
     top: 30px;
     font-size: 18px;
@@ -51,10 +77,64 @@ html {
     background: transparent;
     border: none;
     color: rgba(255, 255, 255, 0.5);
-    padding: 10px;
+    padding: 25px;
     border-radius: 15px;
 }
 a:hover {
     background: white;
     color: black;
+}
+@media only screen and (max-width: 600px) {
+    .page-container {
+        position: relative;
+        min-height: 100vh
+    }
+    .content-wrap {
+        padding-bottom: 80px;
+    }
+    .navbar {
+        display: inline-block;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .navbar h2 {
+        position: relative;
+        float: left;
+        color: rgba(255, 255, 255, 0.75);
+        padding: 25px;
+    }
+    .navbar a {
+        position: relative;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.75);
+        padding: 5px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 15px;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        height: 80px;
+    }
+    footer a {
+        position: relative;
+        top: 30px;
+        font-size: 18px;
+        text-decoration: none;
+        background: transparent;
+        border: none;
+        color: rgba(255, 255, 255, 0.5);
+        padding: 1px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 15px;
+    }
+    a:hover {
+        background: white;
+        color: black;
+    }
 }

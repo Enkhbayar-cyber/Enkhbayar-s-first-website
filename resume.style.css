@@ -8,7 +8,7 @@ html {
     overflow: auto;
 }
 .Resume {
-    background: url('home-background.jpg');
+    background-color: #a0d2eb;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -38,6 +38,7 @@ html {
 .CV {
     position: relative;
     padding: 15px;
+    padding-top: 55px;
     text-align: center;
     font-size: 50px;
     color: rgb(0, 0, 0, 0.75);
@@ -69,6 +70,7 @@ html {
     position: relative;
     font-size: 16px;
     color: rgb(0, 0, 0, 0.75);
+    padding-top: 25px;
 }
 .Photo_and_Name {
     padding: 50px, 50px,50px, 50px;
@@ -76,6 +78,7 @@ html {
 .Biography {
     grid-column-start: 2;
     grid-column-end: 5;
+    
 }
 .Software_skills {
     padding: 15px;
@@ -107,10 +110,104 @@ html {
     background: transparent;
     border: none;
     color: rgba(255, 255, 255, 0.5);
-    padding: 10px;
+    padding: 25px;
     border-radius: 15px;
 }
 a:hover {
     background: white;
     color: black;
+}
+hr {
+    border-top: 2px solid white;
+}
+li {
+    padding: 5px;
+}
+th {
+    padding: 5px;
+}
+td {
+    padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100vw;
+    
+        display: grid;
+    
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr, 1fr;
+    
+        gap: 15px;
+    
+        box-sizing: border-box;
+    }
+    .Photograph {
+        position: relative;
+        width: 100px;
+        height: 50px;
+        padding: 50px 10px 40px 10px;
+        color: rgba(0, 0, 0, 0.75);
+        border: 1px;
+        border-style: solid;
+        border-color: rgb(85, 114, 151);
+    }
+    .Name_on_resume {
+        position: relative;
+        font-size: 16px;
+        color: rgb(0, 0, 0, 0.75);
+    }
+    .Photo_and_Name {
+        padding: 50px, 50px,50px, 50px;
+    }
+    .Biography {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        
+    }  
+    .navbar {
+        display: inline-block;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .navbar h2 {
+        position: relative;
+        float: left;
+        color: rgba(255, 255, 255, 0.75);
+        padding: 25px;
+    }
+    .navbar a {
+        position: relative;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.75);
+        padding: 5px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 15px;
+    }
+    .footer {
+        position: relative;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        bottom: 0;
+        height: 80px;
+    }
+    .footer a {
+        position: relative;
+        font-size: 18px;
+        text-decoration: none;
+        background: transparent;
+        border: none;
+        color: rgba(255, 255, 255, 0.5);
+        padding: 1px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 15px;
+    }
+    a:hover {
+        background: white;
+        color: black;
+    }
 }
