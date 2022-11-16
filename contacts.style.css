@@ -62,7 +62,7 @@ a:visited {
     height: 80px;
 }
 .footer a {
-    position: relative;
+    position: absolute;
     top: 30px;
     font-size: 18px;
     text-decoration: none;
@@ -99,7 +99,7 @@ a:hover {
         border-radius: 15px;
     }
     .footer {
-        position: absolute;
+        position: relative;
         bottom: 0;
         width: 100%;
         background: rgba(0, 0, 0, 0.5);
